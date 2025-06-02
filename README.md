@@ -10,8 +10,8 @@
 - ตรวจจับ `[Authorize(Roles = "...")]` หรือ `[Authorize(Policy = "...")]` หรือ `[Authorize("...")]` ทั้งระดับ Controller และ Action
 - จำแนกสิทธิ์ว่าเป็น:
   - `Page` → มี View `.cshtml` ตรงกับ Action
-  - `Action` → มีลักษณะเป็น POST หรือมีคำว่า Save/Delete/Update
-  - `Unknown` → กรณีไม่เข้าเงื่อนไข
+  - `Button` → มีลักษณะเป็น POST หรือมีคำว่า Button
+  - `Event` → กรณีไม่เข้าเงื่อนไข
 - บันทึกลง `RoleAccessLogs` ในฐานข้อมูลผ่าน `EF Core`
 - ทำงานอัตโนมัติเมื่อแอปเริ่มทำงาน
 
