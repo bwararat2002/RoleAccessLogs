@@ -1,0 +1,12 @@
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.csproj.AssemblyReference.cache
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.AssemblyInfoInputs.cache
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.AssemblyInfo.cs
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.csproj.CoreCompileInputs.cache
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Debug\net8.0\CCP.RoleAccessScanner.deps.json
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Debug\net8.0\CCP.RoleAccessScanner.dll
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Debug\net8.0\CCP.RoleAccessScanner.pdb
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.dll
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\refint\CCP.RoleAccessScanner.dll
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\CCP.RoleAccessScanner.pdb
+C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Debug\net8.0\ref\CCP.RoleAccessScanner.dll

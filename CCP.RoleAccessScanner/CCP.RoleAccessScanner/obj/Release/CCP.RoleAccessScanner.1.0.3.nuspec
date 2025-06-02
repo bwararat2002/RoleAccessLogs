@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CCP.RoleAccessScanner</id>
+    <version>1.0.3</version>
+    <authors>CCP Team</authors>
+    <description>Scan and log ASP.NET Core controller/action/role info to centralized database.</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Release\net8.0\CCP.RoleAccessScanner.dll" target="lib\net8.0\CCP.RoleAccessScanner.dll" />
+  </files>
+</package>
