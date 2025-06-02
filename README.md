@@ -33,7 +33,8 @@
    - เลือกและคลิก **Install**
    
 ### กรณีใช้ VS Code
-  1. dotnet add package CCP.RoleAccessScanner --source \\ccpnas\Programmer\MyNuGets\CCP.RoleAccessScanner
+  1. เปิด terminal
+  2. dotnet add package CCP.RoleAccessScanner --source \\ccpnas\Programmer\MyNuGets\CCP.RoleAccessScanner
 ## หมายเหตุ
 - ให้แน่ใจว่าเครือข่ายสามารถเข้าถึง path `\\ccpnas\Programmer`
 - หากไม่พบแพ็กเกจ ให้คลิกปุ่ม **Refresh** (ไอคอนลูกศรวน)
@@ -45,21 +46,30 @@
   4. การเพิ่ม [RemarkPage] => [RemarkPage("หน้าจัดการผู้ใช้")] ข้างบน method
 
 ##📝 **ตัวอย่างการใช้งาน**
+
+**file .csproj**
+</br>
 ![image](https://github.com/user-attachments/assets/928e62dc-6c30-4bc5-b7dd-52c0666854f4)
 
 
+**Program.cs**
+</br>
 ![image](https://github.com/user-attachments/assets/d58f7bf3-98cc-4393-aa7f-f17152aa4c1e)
 
 
+**AppDbContext**
+</br>
 ![image](https://github.com/user-attachments/assets/c01aee26-e928-41e9-af8a-4b9a992def6d)
 
 
+**Views/Home/Index.cshtml**
+</br>
 ![image](https://github.com/user-attachments/assets/a14d5728-6f31-4f32-bd45-6861a3cb68e1)
 
 
+**Controller.cs**
+</br>
 ![image](https://github.com/user-attachments/assets/f29739df-8159-4955-9976-b4e205d68340)
 
 
 
-```bash
-C:\NuGetFeed
