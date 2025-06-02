@@ -40,10 +40,10 @@
 - หากไม่พบแพ็กเกจ ให้คลิกปุ่ม **Refresh** (ไอคอนลูกศรวน)
 
 ## 🧪 วิธีใช้งานในโปรเจกต์
-  1. using CCP.RoleAccessScanner.Extensions;
-  2. builder.Services.AddRoleAccessScanner<AppDbContext>("PROJECT_ID", "PROJECT_NAME");
+  1. using CCP.RoleAccessScanner.Extensions; ในไฟล์ที่จะใช้งาน
+  2. program.cs => builder.Services.AddRoleAccessScanner<AppDbContext>("PROJECT_ID", "PROJECT_NAME");
   3. DbContext ของคุณ ต้องรวม RoleAccessLog => public DbSet<**RoleAccessLog**> RoleAccessLogs { get; set; }
-  4. การเพิ่ม [RemarkPage] => [RemarkPage("หน้าจัดการผู้ใช้")] ข้างบน method
+  4. การเพิ่ม [RemarkPage] => [RemarkPage("หน้าจัดการผู้ใช้")] ข้างบน method ใน controller
 
 ##📝 **ตัวอย่างการใช้งาน**
 
