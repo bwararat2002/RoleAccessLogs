@@ -28,7 +28,7 @@
           "C:\\MyNuGets": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "\\\\ccpnas\\Programmer\\MyNuGets": {},
+          "\\\\ccpnas\\Programmer\\MyNuGets\\CCP.RoleAccessScanner": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +55,7 @@
           "dependencies": {
             "CCP.RoleAccessScanner": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.5, )"
             },
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",

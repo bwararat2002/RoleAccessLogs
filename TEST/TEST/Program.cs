@@ -24,7 +24,7 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddRoleAccessScanner<AppDbContext>("MyProject02-usePack");
+builder.Services.AddRoleAccessScanner<AppDbContext>("WEB-001", "MyProject02-usePack");
 
 var app = builder.Build();
 

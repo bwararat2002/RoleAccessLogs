@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\wararat.j\\source\\repos\\TEST\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "TEST\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:54:45.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TEST\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:52:50.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TEST",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
               "RelativeDocumentMoniker": "TEST\\TEST.csproj",
@@ -58,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\_ViewImports.cshtml",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\Shared\\Error.cshtml",
@@ -84,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TEST\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TEST\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:43:16.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\appsettings.json",
               "RelativeDocumentMoniker": "TEST\\appsettings.json",
@@ -123,7 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
+              "RelativeDocumentMoniker": "TEST\\Program.cs",
+              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
+              "RelativeToolTip": "TEST\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:40:22.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TEST.csproj",
               "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
               "RelativeDocumentMoniker": "TEST\\TEST.csproj",
@@ -132,19 +179,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-31T09:41:57.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
-              "RelativeDocumentMoniker": "TEST\\Program.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
-              "RelativeToolTip": "TEST\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:40:22.344Z",
               "EditorCaption": ""
             }
           ]
