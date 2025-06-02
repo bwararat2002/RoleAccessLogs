@@ -46,9 +46,17 @@
 
 ##📝 **ตัวอย่างการใช้งาน**
 ![image](https://github.com/user-attachments/assets/928e62dc-6c30-4bc5-b7dd-52c0666854f4)
+
+
 ![image](https://github.com/user-attachments/assets/d58f7bf3-98cc-4393-aa7f-f17152aa4c1e)
+
+
 ![image](https://github.com/user-attachments/assets/c01aee26-e928-41e9-af8a-4b9a992def6d)
+
+
 ![image](https://github.com/user-attachments/assets/a14d5728-6f31-4f32-bd45-6861a3cb68e1)
+
+
 ![image](https://github.com/user-attachments/assets/f29739df-8159-4955-9976-b4e205d68340)
 
 
