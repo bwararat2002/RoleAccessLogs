@@ -34,7 +34,7 @@
    
 ### กรณีใช้ VS Code
   1. เปิด terminal
-  2. dotnet add package CCP.RoleAccessScanner --source \\ccpnas\Programmer\MyNuGets\CCP.RoleAccessScanner
+  2. dotnet add package CCP.RoleAccessScanner --source \\ccpnas\dep-it\25.Programmer\MyNuGets\CCP.RoleAccessScanner
 ## หมายเหตุ
 - ให้แน่ใจว่าเครือข่ายสามารถเข้าถึง path `\\ccpnas\Programmer`
 - หากไม่พบแพ็กเกจ ให้คลิกปุ่ม **Refresh** (ไอคอนลูกศรวน)
