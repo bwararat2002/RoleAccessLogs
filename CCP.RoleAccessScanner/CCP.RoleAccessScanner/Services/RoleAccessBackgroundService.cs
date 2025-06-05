@@ -1,9 +1,10 @@
 #nullable enable
 using CCP.RoleAccessScanner.Extensions;
+using CCP.RoleAccessScanner.Interfaces;
 using CCP.RoleAccessScanner.Internal;
+using CCP.RoleAccessScanner.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -12,7 +13,10 @@ using System.Threading.Tasks;
 
 namespace CCP.RoleAccessScanner.Services;
 
-public class RoleAccessBackgroundService<TDbContext> : BackgroundService where TDbContext : DbContext
+// ?? เพิ่ม TModel เป็น generic
+public class RoleAccessBackgroundService<TDbContext, TModel> : BackgroundService
+    where TDbContext : DbContext
+    where TModel : class, IRoleAccessRecord, new()
 {
     private readonly IServiceProvider _provider;
     private readonly IWebHostEnvironment _env;
@@ -30,7 +34,10 @@ public class RoleAccessBackgroundService<TDbContext> : BackgroundService where T
         using var scope = _provider.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<TDbContext>();
 
-        Internal.RoleAccessScanner.ScanAndLogRoles(db, _env, _config.ProjectId, _config.ProjectName);
+        // ?? เรียกใช้แบบ generic ที่รองรับ TModel
+        Internal.RoleAccessScanner.ScanAndLogRoles<TDbContext, TModel>(
+            db, _env, _config.ProjectId, _config.ProjectName);
+
         return Task.CompletedTask;
     }
 }

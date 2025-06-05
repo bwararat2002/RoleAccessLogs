@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using System;
+using TEST.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,7 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddRoleAccessScanner<AppDbContext>("WEB-001", "MyProject02-usePack");
+builder.Services.AddRoleAccessScanner<AppDbContext,RoleAccessLog>("WEB-001", "MyProject02-usePack");
 
 var app = builder.Build();
 

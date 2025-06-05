@@ -1,8 +1,9 @@
 #nullable enable
+using CCP.RoleAccessScanner.Interfaces;
 using System;
 namespace CCP.RoleAccessScanner.Models;
 
-public class RoleAccessLog
+public class RoleAccessLog : IRoleAccessRecord
 {
     public int Id { get; set; }
     public string ProjectId { get; set; }

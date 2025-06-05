@@ -1,18 +1,30 @@
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
+using CCP.RoleAccessScanner.Interfaces;
 using CCP.RoleAccessScanner.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CCP.RoleAccessScanner.Extensions;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddRoleAccessScanner<TDbContext>(this IServiceCollection services, string projectId, string projectName)
+    public static IServiceCollection AddRoleAccessScanner<TDbContext, TModel>(
+        this IServiceCollection services,
+        string projectId,
+        string projectName)
         where TDbContext : DbContext
+        where TModel : class, IRoleAccessRecord, new()
     {
-        services.AddSingleton(new RoleAccessScannerConfig { ProjectId = projectId, ProjectName = projectName });
-        services.AddHostedService<RoleAccessBackgroundService<TDbContext>>();
+        services.AddSingleton(new RoleAccessScannerConfig
+        {
+            ProjectId = projectId,
+            ProjectName = projectName
+        });
+
+        services.AddHostedService<RoleAccessBackgroundService<TDbContext, TModel>>();
+
         return services;
     }
+
 }
 
 public class RoleAccessScannerConfig

@@ -1,30 +1,30 @@
 #nullable enable
-using System.Threading.Tasks;
-using System;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-
-using Microsoft.EntityFrameworkCore;
+using CCP.RoleAccessScanner.Attributes;
+using CCP.RoleAccessScanner.Interfaces;
 using CCP.RoleAccessScanner.Models;
-using System.Reflection;
-using System.Linq;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using NonActionAttribute = Microsoft.AspNetCore.Mvc.NonActionAttribute;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
 using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute;
 using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
-using Microsoft.AspNetCore.Hosting;
-using System.IO;
-using CCP.RoleAccessScanner.Attributes;
+using NonActionAttribute = Microsoft.AspNetCore.Mvc.NonActionAttribute;
 
 namespace CCP.RoleAccessScanner.Internal;
 
 public static class RoleAccessScanner
 {
-    public static void ScanAndLogRoles<TDbContext>(TDbContext context, IWebHostEnvironment env, string projectId, string projectName)
+    public static void ScanAndLogRoles<TDbContext, TModel>(TDbContext context, IWebHostEnvironment env, string projectId, string projectName)
         where TDbContext : DbContext
+        where TModel : class, IRoleAccessRecord, new()
     {
-        var db = context.Set<RoleAccessLog>();
-        var newAccessList = new List<RoleAccessLog>();
+        var db = context.Set<TModel>();
+        var newAccessList = new List<TModel>();
 
         var controllers = Assembly.GetEntryAssembly().GetTypes()
             .Where(t => typeof(Controller).IsAssignableFrom(t) && !t.IsAbstract);
@@ -55,7 +55,7 @@ public static class RoleAccessScanner
 
                 foreach (var role in actionRoles)
                 {
-                    newAccessList.Add(new RoleAccessLog
+                    newAccessList.Add(new TModel
                     {
                         ProjectId = projectId,
                         ProjectName = projectName,

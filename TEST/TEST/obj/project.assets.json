@@ -46,7 +46,7 @@
           }
         }
       },
-      "CCP.RoleAccessScanner/1.0.5": {
+      "CCP.RoleAccessScanner/1.0.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0",
@@ -1967,13 +1967,13 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "CCP.RoleAccessScanner/1.0.5": {
-      "sha512": "4RTVK55jYGzJGeQWMOedH7U2+6GLBoI7S1UOjXnDUDpmNAEMYp3bYUhhkeN2ZaCzF1OYevBTCI9+vWodFC1f3Q==",
+    "CCP.RoleAccessScanner/1.0.7": {
+      "sha512": "GaSAD165Z8CVwU8nlCgEFoPWXMCGZoQxKPNItFNIx9934/yAZ/72lB3Zj6J0V/oGmt+hAZmYb4n3HN/VBXLZjQ==",
       "type": "package",
-      "path": "ccp.roleaccessscanner/1.0.5",
+      "path": "ccp.roleaccessscanner/1.0.7",
       "files": [
         ".nupkg.metadata",
-        "ccp.roleaccessscanner.1.0.5.nupkg.sha512",
+        "ccp.roleaccessscanner.1.0.7.nupkg.sha512",
         "ccp.roleaccessscanner.nuspec",
         "lib/net8.0/CCP.RoleAccessScanner.dll"
       ]
@@ -4917,7 +4917,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CCP.RoleAccessScanner >= 1.0.5",
+      "CCP.RoleAccessScanner >= 1.0.7",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.3.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4931,11 +4931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+      "projectUniqueName": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
       "projectName": "TEST",
-      "projectPath": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+      "projectPath": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
       "packagesPath": "C:\\Users\\wararat.j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\obj\\",
+      "outputPath": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4952,7 +4952,7 @@
         "C:\\MyNuGets": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "\\\\ccpnas\\Programmer\\MyNuGets\\CCP.RoleAccessScanner": {},
+        "\\\\ccpnas\\dep-it\\25.Programmer\\MyNuGets\\CCP.RoleAccessScanner": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4979,7 +4979,7 @@
         "dependencies": {
           "CCP.RoleAccessScanner": {
             "target": "Package",
-            "version": "[1.0.5, )"
+            "version": "[1.0.7, )"
           },
           "Microsoft.AspNetCore.Authentication.Cookies": {
             "target": "Package",

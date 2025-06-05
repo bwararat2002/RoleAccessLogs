@@ -10,3 +10,16 @@ C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\
 C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\refint\CCP.RoleAccessScanner.dll
 C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.pdb
 C:\Users\wararat.j\source\repos\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\ref\CCP.RoleAccessScanner.dll
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Release\net8.0\CCP.RoleAccessScanner.deps.json
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Release\net8.0\CCP.RoleAccessScanner.dll
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\bin\Release\net8.0\CCP.RoleAccessScanner.pdb
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.csproj.AssemblyReference.cache
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.AssemblyInfoInputs.cache
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.AssemblyInfo.cs
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.csproj.CoreCompileInputs.cache
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.sourcelink.json
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.dll
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\refint\CCP.RoleAccessScanner.dll
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\CCP.RoleAccessScanner.pdb
+D:\Github\RoleAccessLogs\CCP.RoleAccessScanner\CCP.RoleAccessScanner\obj\Release\net8.0\ref\CCP.RoleAccessScanner.dll
