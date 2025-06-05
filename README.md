@@ -122,10 +122,11 @@ public IActionResult Index() => View();
 ## ⚖️ ตัวอย่างการเขียน Controller
 
 ```csharp
+private readonly remarkPage = "รายละเอียดหน้าจัดการผู้ใช้";
 [Authorize("Admin")]
 public class EmployeeController : Controller
 {
-    [RemarkPage("รายละเอียดหน้าจัดการผู้ใช้")]
+    [RemarkPage(remarkPage)]
     public IActionResult Index() => View();
 
     [HttpPost]
