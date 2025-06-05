@@ -1,0 +1,40 @@
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## Others
+*.log
+*.cache
+*.pdb
+*.dbmdl
+*.dbml.layout
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Rider
+.idea/
+
+## User-specific files
+*.swp
+*~
