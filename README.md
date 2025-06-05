@@ -99,8 +99,9 @@ builder.Services.AddRoleAccessScanner<AppDbContext, RoleAccessLog>(
 ### 5. ใช้ Attribute `[RemarkPage]` เพื่อกำหนดรายละเอียดของแต่ละหน้า
 
 ```csharp
+private readonly remarkPage = "รายละเอียดหน้าจัดการผู้ใช้";
 [Authorize("Admin")]
-[RemarkPage("รายละเอียดหน้าจัดการผู้ใช้")]
+[RemarkPage(remarkPage)]
 public IActionResult Index() => View();
 ```
 
