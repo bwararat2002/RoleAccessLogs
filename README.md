@@ -1,78 +1,154 @@
 # CCP.RoleAccessScanner
 
-ระบบ Role Access Scanner สำหรับ ASP.NET Core MVC  
-ช่วยตรวจจับว่าแต่ละ Role สามารถเข้าถึงหน้าหรือฟังก์ชันใดบ้างในระบบ แล้วบันทึกลงฐานข้อมูลโดยอัตโนมัติ
-
-- โฟลเดอร์ **CCP.RoleAccessScanner** เป็นตัวเก็บการทำงานของ package
-- โฟลเดอร์ **TEST** เป็นตัวโปรเจคตัวอย่างที่เรียกใช้ package CCP.RoleAccessScanne
+ระบบบันทึก Controller, Action และ Role/Policy ที่ใช้ใน ASP.NET Core MVC Project ลงฐานข้อมูลกลาง
+เพื่อช่วยตรวจสอบสิทธิ์การเข้าถึงหน้าเว็บของแต่ละโปรเจคได้อย่างมีประสิทธิภาพ
 
 ---
 
-## ✅ ความสามารถหลัก
+## ✨ คุณสมบัติหลัก
 
-- ตรวจจับ `[Authorize(Roles = "...")]` หรือ `[Authorize(Policy = "...")]` หรือ `[Authorize("...")]` ทั้งระดับ Controller และ Action
-- จำแนกสิทธิ์ว่าเป็น:
-  - `Page` → มี View `.cshtml` ตรงกับ Action
-  - `Button` → มีลักษณะเป็น POST หรือมีคำว่า Button
-  - `Event` → กรณีไม่เข้าเงื่อนไข
-- บันทึกลง `RoleAccessLogs` ในฐานข้อมูลผ่าน `EF Core`
-- ทำงานอัตโนมัติเมื่อแอปเริ่มทำงาน
+* สแกน Controller และ Action ทุกตัวในระบบ พร้อม Role/Policy
+* รองรับการใช้ `[Authorize]` ทั้งระดับ Controller และ Method
+* รองรับ `appsettings.json` Role Mapping
+* รองรับ Remark ระบุรายละเอียดหน้านั้น ๆ เพื่อสร้างบน View
+* อัปเดตอัตโนมัติเมื่อรันโปรเจค
+* รองรับการใช้ Model และ DbSet จากแต่ละโปรเจคโดยไม่ผูกกับ Model ภายในแพคเกจ
 
 ---
 
-## 📦 ติดตั้ง Package
+## ✅ โครงสร้างที่ต้องเตรียม
 
-### กรณีใช้ Visual Studio
-1. คลิกขวาที่โปรเจกต์ของคุณ → เลือก **Manage NuGet Packages**
-2. ไปที่แท็บ **Browse**
-3. คลิกไอคอน ⚙️ (Settings) ที่มุมขวาบน
-4. ในหน้าต่าง **NuGet Package Manager**, เพิ่ม **Package source** ใหม่:
-   - **Name**: `CCPLocal`
-   - **Source**: `\\ccpnas\Programmer\MyNuGets\CCP.RoleAccessScanner`
-5. คลิก **Update** หรือ **OK** เพื่อบันทึก
-6. กลับมาที่แท็บ **Browse**
-   - เปลี่ยน **Package source** เป็น `CCPLocal`
-   - ค้นหา `CCP.RoleAccessScanner`
-   - เลือกและคลิก **Install**
-   
-### กรณีใช้ VS Code
-  1. เปิด terminal
-  2. dotnet add package CCP.RoleAccessScanner --source \\ccpnas\dep-it\25.Programmer\MyNuGets\CCP.RoleAccessScanner
-## หมายเหตุ
-- ให้แน่ใจว่าเครือข่ายสามารถเข้าถึง path `\\ccpnas\Programmer`
-- หากไม่พบแพ็กเกจ ให้คลิกปุ่ม **Refresh** (ไอคอนลูกศรวน)
+### 1. โพรไฟล์ NuGet Package
 
-## 🧪 วิธีใช้งานในโปรเจกต์
-  1. using CCP.RoleAccessScanner.Extensions; ในไฟล์ที่จะใช้งาน
-  2. program.cs => builder.Services.AddRoleAccessScanner<AppDbContext>("PROJECT_ID", "PROJECT_NAME");
-  3. DbContext ของคุณ ต้องรวม RoleAccessLog => public DbSet<**RoleAccessLog**> RoleAccessLogs { get; set; }
-  4. การเพิ่ม [RemarkPage] => [RemarkPage("หน้าจัดการผู้ใช้")] ข้างบน method ใน controller
+ใน Git Repo จะมีโฟลเดอร์แยกออกเป็น 2 ส่วน:
 
-##📝 **ตัวอย่างการใช้งาน**
+* `/CCP.RoleAccessScanner` → ตัวโปรเจคแพคเกจ (Library)
+* `/TEST` → ตัวอย่างโปรเจคที่เรียกใช้ Package
 
-**file .csproj**
-</br>
-![image](https://github.com/user-attachments/assets/928e62dc-6c30-4bc5-b7dd-52c0666854f4)
+---
 
+## 📅 การติดตั้งแพคเกจในโปรเจคอื่น
 
-**Program.cs**
-</br>
-![image](https://github.com/user-attachments/assets/d58f7bf3-98cc-4393-aa7f-f17152aa4c1e)
+### 📑 Visual Studio
 
+1. ไปที่ `Tools > NuGet Package Manager > Package Sources`
+2. เพิ่ม Source ใหม่:
 
-**AppDbContext**
-</br>
-![image](https://github.com/user-attachments/assets/c01aee26-e928-41e9-af8a-4b9a992def6d)
+   * **Name**: CCP.Local
+   * **Path**: `\\ccpnas\dep-it\25.Programmer\MyNuGets\CCP.RoleAccessScanner`
+3. ติดตั้งผ่าน Package Manager Console:
 
+```bash
+Install-Package CCP.RoleAccessScanner -Source CCP.Local
+```
 
-**Views/Home/Index.cshtml**
-</br>
-![image](https://github.com/user-attachments/assets/a14d5728-6f31-4f32-bd45-6861a3cb68e1)
+### 💻 VS Code / .NET CLI
 
+```bash
+dotnet add package CCP.RoleAccessScanner --source \\ccpnas\dep-it\25.Programmer\MyNuGets\CCP.RoleAccessScanner
+```
 
-**Controller.cs**
-</br>
-![image](https://github.com/user-attachments/assets/f29739df-8159-4955-9976-b4e205d68340)
+---
 
+## 📄 การตั้งค่าโปรเจคเพื่อใช้งาน Package
 
+### 1. เพิ่ม Role Mapping ใน `appsettings.json`
 
+```json
+"AuthorizationPolicies": {
+  "Admin": ["SystemAll", "Admin"],
+  "Manager": ["SystemAll", "Manager"],
+  "User": ["SystemAll", "Admin", "User"]
+}
+```
+
+### 2.  เปลี่ยน Model ที่ได้จาก scaffold เป็น partial class และ Implement Interface `IRoleAccessRecord` 
+
+```csharp
+using CCP.RoleAccessScanner.Interfaces;
+
+public partial class RoleAccessLog : IRoleAccessRecord
+{
+    public string ProjectId { get; set; }
+    public string ProjectName { get; set; }
+    public string Controller { get; set; }
+    public string Action { get; set; }
+    public string Role { get; set; }
+    public string? Type { get; set; }
+    public string? Remark { get; set; }
+    public DateTime LoggedAt { get; set; }
+}
+```
+
+### 3. เพิ่ม DbSet ใน DbContext ของคุณ
+
+```csharp
+public DbSet<RoleAccessLog> RoleAccessLogs { get; set; }
+```
+
+### 4. เรียกใช้ใน `Program.cs`
+
+```csharp
+builder.Services.AddRoleAccessScanner<AppDbContext, RoleAccessLog>(
+    configuration: builder.Configuration,
+    projectId: "PROJ-001",
+    projectName: "ระบบจัดการผู้ใช้งาน"
+);
+```
+
+### 5. ใช้ Attribute `[RemarkPage]` เพื่อกำหนดรายละเอียดของแต่ละหน้า
+
+```csharp
+[Authorize("Admin")]
+[RemarkPage("รายละเอียดหน้าจัดการผู้ใช้")]
+public IActionResult Index() => View();
+```
+
+---
+
+## 🏁 ประเภท Action ที่ระบบจะแยก
+
+| ลักษณะ                                        | มี View | HTTP Method | เก็บเป็นประเภท |
+| --------------------------------------------- | ------- | ----------- | -------------- |
+| GET ที่มี View                                | ✔       | GET         | Page           |
+| POST/PUT/DELETE มี View หรือชื่อมี button/btn | ✔/❌     | POST        | Button         |
+| อื่น ๆ                                        | ❌       | -           | Event          |
+
+> ถ้ามี Method ทั้ง `GET` และ `POST` ชื่อเดียวกัน มี View — ระบบจะเก็บแค่ `GET` เป็น Page เท่านั้น
+
+---
+
+## ⚖️ ตัวอย่างการเขียน Controller
+
+```csharp
+[Authorize("Admin")]
+public class EmployeeController : Controller
+{
+    [RemarkPage("รายละเอียดหน้าจัดการผู้ใช้")]
+    public IActionResult Index() => View();
+
+    [HttpPost]
+    public IActionResult Save(Employee model)
+    {
+        // บันทึกข้อมูล
+        return RedirectToAction("Index");
+    }
+}
+```
+
+---
+
+## 🚀 การ Build และ Pack NuGet
+
+```bash
+dotnet pack -c Release
+```
+
+* ไฟล์ `.nupkg` จะอยู่ใน `bin/Release/`
+* คัดลอกไปไว้ที่ `\\ccpnas\dep-it\25.Programmer\MyNuGets\CCP.RoleAccessScanner`
+
+---
+
+## 💬 สอบถามหรือรายงานปัญหา
+
+ติดต่อทีม Programmer CCP โดยตรง หรือเปิด Issue ภายใน Git Repository ขององค์กร
