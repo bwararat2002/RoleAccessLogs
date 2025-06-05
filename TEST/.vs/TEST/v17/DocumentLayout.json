@@ -7,15 +7,8 @@
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,6 +17,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,10 +50,6 @@
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -61,24 +61,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TEST\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T03:54:45.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TEST",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
               "RelativeDocumentMoniker": "TEST\\TEST.csproj",
@@ -90,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\_ViewImports.cshtml",
@@ -116,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TEST\\Controllers\\HomeController.cs",
@@ -129,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\appsettings.json",
               "RelativeDocumentMoniker": "TEST\\appsettings.json",
               "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\appsettings.json",
               "RelativeToolTip": "TEST\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-31T09:42:53.73Z",
               "EditorCaption": ""
@@ -148,7 +135,7 @@
               "RelativeDocumentMoniker": "TEST\\Program.cs",
               "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Program.cs",
               "RelativeToolTip": "TEST\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:40:22.344Z",
               "EditorCaption": ""
@@ -156,6 +143,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RoleAccessLog.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
+              "RelativeDocumentMoniker": "TEST\\Models\\RoleAccessLog.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
+              "RelativeToolTip": "TEST\\Models\\RoleAccessLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:32:15.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TEST\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:54:45.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TEST\\Data\\AppDbContext.cs",
@@ -169,19 +182,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RoleAccessLog.cs",
-              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
-              "RelativeDocumentMoniker": "TEST\\Models\\RoleAccessLog.cs",
-              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
-              "RelativeToolTip": "TEST\\Models\\RoleAccessLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:32:15.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "TEST\\Models\\ProductModel.cs",
@@ -195,6 +195,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TEST.csproj",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
+              "RelativeDocumentMoniker": "TEST\\TEST.csproj",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
+              "RelativeToolTip": "TEST\\TEST.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T09:41:57.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -205,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\Home\\Privacy.cshtml",
@@ -214,19 +227,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-02T03:52:50.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TEST.csproj",
-              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
-              "RelativeDocumentMoniker": "TEST\\TEST.csproj",
-              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
-              "RelativeToolTip": "TEST\\TEST.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-31T09:41:57.716Z",
               "EditorCaption": ""
             }
           ]

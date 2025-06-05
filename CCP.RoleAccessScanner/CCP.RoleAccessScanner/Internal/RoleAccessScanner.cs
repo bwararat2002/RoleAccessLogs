@@ -5,6 +5,7 @@ using CCP.RoleAccessScanner.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -52,29 +53,58 @@ public static class RoleAccessScanner
                 var remarkPageAttr = action.GetCustomAttribute<RemarkPageAttribute>();
                 var remarkPage = remarkPageAttr?.Title;
 
-                string type = action.IsDefined(typeof(HttpPostAttribute), false)
-                    || action.IsDefined(typeof(HttpDeleteAttribute), false)
+                var isPostAction = action.IsDefined(typeof(HttpPostAttribute), false)
                     || action.IsDefined(typeof(HttpPutAttribute), false)
-                    || action.Name.ToLower().Contains("button")
-                              ? "Button"
-                              : ViewExists(controllerName, action.Name, env)
-                                  ? "Page"
-                                  : "Event";
+                    || action.IsDefined(typeof(HttpDeleteAttribute), false)
+                    || action.Name.ToLower().Contains("btn")
+                    || action.Name.ToLower().Contains("button");
+
+                var hasView = ViewExists(controllerName, action.Name, env);
+
+                // เช็คว่ามี method GET ที่ชื่อเดียวกัน
+                var hasGetSameName = controller.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.DeclaredOnly)
+                    .Any(m => m.Name == action.Name &&
+                              m != action &&
+                              !m.IsDefined(typeof(NonActionAttribute)) &&
+                              !m.IsDefined(typeof(HttpPostAttribute)) &&
+                              !m.IsDefined(typeof(HttpPutAttribute)) &&
+                              !m.IsDefined(typeof(HttpDeleteAttribute)));
+
+                // [?] ถ้าเป็น POST และมี View และมี GET ชื่อเดียวกัน -> ให้ข้าม
+                if (isPostAction && hasView && hasGetSameName)
+                {
+                    continue;
+                }
+
+                string type;
+                if (hasView)
+                {
+                    type = "Page"; // มี View ถือเป็น Page เสมอ ไม่ว่าจะเป็น GET หรือ POST
+                }
+                else if (isPostAction)
+                {
+                    type = "Button";
+                }
+                else
+                {
+                    type = "Event";
+                }
+
 
                 foreach (var role in actionRoles)
-                {
-                    newAccessList.Add(new TModel
                     {
-                        ProjectId = projectId,
-                        ProjectName = projectName,
-                        Controller = controllerName,
-                        Action = action.Name,
-                        Role = role,
-                        Type = type,
-                        LoggedAt = DateTime.Now,
-                        Remark = remarkPage ?? string.Empty,
-                    });
-                }
+                        newAccessList.Add(new TModel
+                        {
+                            ProjectId = projectId,
+                            ProjectName = projectName,
+                            Controller = controllerName,
+                            Action = action.Name,
+                            Role = role,
+                            Type = type,
+                            LoggedAt = DateTime.Now,
+                            Remark = remarkPage ?? string.Empty,
+                        });
+                    }
             }
         }
 
