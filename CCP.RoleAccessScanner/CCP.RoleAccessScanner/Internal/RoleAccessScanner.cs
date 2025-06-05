@@ -19,7 +19,7 @@ namespace CCP.RoleAccessScanner.Internal;
 
 public static class RoleAccessScanner
 {
-    public static void ScanAndLogRoles<TDbContext, TModel>(TDbContext context, IWebHostEnvironment env, string projectId, string projectName)
+    public static void ScanAndLogRoles<TDbContext, TModel>(TDbContext context, IWebHostEnvironment env, string projectId, string projectName, Dictionary<string, List<string>>? roleMap)
         where TDbContext : DbContext
         where TModel : class, IRoleAccessRecord, new()
     {
@@ -44,14 +44,22 @@ public static class RoleAccessScanner
             foreach (var action in actions)
             {
                 var actionAuthorize = action.GetCustomAttribute<AuthorizeAttribute>();
-                var actionRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
+                var rawRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
+                var baseRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
+                var actionRoles = ExpandRoles(baseRoles, roleMap);
+
 
                 var remarkPageAttr = action.GetCustomAttribute<RemarkPageAttribute>();
                 var remarkPage = remarkPageAttr?.Title;
 
-                string type = ViewExists(controllerName, action.Name, env) ? "Page" :
-                              action.IsDefined(typeof(HttpPostAttribute), false) ||
-                              action.Name.ToLower().Contains("button") ? "Button" : "Event";
+                string type = action.IsDefined(typeof(HttpPostAttribute), false)
+                    || action.IsDefined(typeof(HttpDeleteAttribute), false)
+                    || action.IsDefined(typeof(HttpPutAttribute), false)
+                    || action.Name.ToLower().Contains("button")
+                              ? "Button"
+                              : ViewExists(controllerName, action.Name, env)
+                                  ? "Page"
+                                  : "Event";
 
                 foreach (var role in actionRoles)
                 {
@@ -119,4 +127,16 @@ public static class RoleAccessScanner
         var viewPath = Path.Combine(env.ContentRootPath, "Views", controllerName, $"{actionName}.cshtml");
         return File.Exists(viewPath);
     }
+
+    private static string[] ExpandRoles(string[] roles, Dictionary<string, List<string>>? mappings)
+    {
+        if (mappings == null) return roles;
+
+        return roles
+            .SelectMany(role =>
+                mappings.ContainsKey(role) ? mappings[role] : new List<string> { role })
+            .Distinct()
+            .ToArray();
+    }
+
 }

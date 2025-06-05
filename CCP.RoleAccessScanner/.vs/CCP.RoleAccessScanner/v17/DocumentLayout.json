@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\",
+  "WorkspaceRootPath": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\internal\\roleaccessscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\internal\\roleaccessscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\attributes\\remarkpageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\attributes\\remarkpageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\services\\roleaccessbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\services\\roleaccessbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|c:\\users\\wararat.j\\source\\repos\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\services\\roleaccessbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\services\\roleaccessbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\internal\\roleaccessscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\internal\\roleaccessscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\interfaces\\iroleaccessrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\interfaces\\iroleaccessrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\ccp.roleaccessscanner.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|d:\\github\\roleaccesslogs\\ccp.roleaccessscanner\\ccp.roleaccessscanner\\attributes\\remarkpageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC7D4-957A-405D-9985-A561DD9FE1F9}|CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj|solutionrelative:ccp.roleaccessscanner\\attributes\\remarkpageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CCP.RoleAccessScanner",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
-              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
-              "RelativeToolTip": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-02T06:35:09.037Z",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:49:45.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "CCP.RoleAccessScanner.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T09:25:07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RemarkPageAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
               "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
               "RelativeToolTip": "CCP.RoleAccessScanner\\Attributes\\RemarkPageAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:48:52.794Z"
+              "WhenOpened": "2025-06-02T02:48:52.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "CCP.RoleAccessScanner\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAewAsAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:49:45.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleAccessBackgroundService.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
-              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
-              "RelativeToolTip": "CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwCAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:30:03.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "RoleAccessScanner.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
               "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
               "RelativeToolTip": "CCP.RoleAccessScanner\\Internal\\RoleAccessScanner.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwDUAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABUAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:25:35.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleAccessBackgroundService.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\Services\\RoleAccessBackgroundService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA2wBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:30:03.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CCP.RoleAccessScanner.csproj",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T06:35:09.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleAccessLog.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Models\\RoleAccessLog.cs",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Models\\RoleAccessLog.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Models\\RoleAccessLog.cs",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\Models\\RoleAccessLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:02:45.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CCP.RoleAccessScanner.csproj.Backup.tmp",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
-              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
-              "RelativeToolTip": "CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj.Backup.tmp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-31T09:25:07Z"
+              "Title": "IRoleAccessRecord.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Interfaces\\IRoleAccessRecord.cs",
+              "RelativeDocumentMoniker": "CCP.RoleAccessScanner\\Interfaces\\IRoleAccessRecord.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\Interfaces\\IRoleAccessRecord.cs",
+              "RelativeToolTip": "CCP.RoleAccessScanner\\Interfaces\\IRoleAccessRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:57:56.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

@@ -1,45 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wararat.j\\source\\repos\\TEST\\",
+  "WorkspaceRootPath": "D:\\Github\\RoleAccessLogs\\TEST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\models\\roleaccesslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|c:\\users\\wararat.j\\source\\repos\\test\\test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|d:\\github\\roleaccesslogs\\test\\test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{463DBDBD-636B-4125-AE2F-62D5A0D8A1C0}|TEST\\TEST.csproj|solutionrelative:test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -50,41 +61,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TEST\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-02T03:54:45.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "TEST\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T03:52:50.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "TEST",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
               "RelativeDocumentMoniker": "TEST\\TEST.csproj",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
               "RelativeToolTip": "TEST\\TEST.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-31T09:55:23.83Z",
@@ -92,11 +90,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "TEST\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -105,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "TEST\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "TEST\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -118,11 +116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TEST\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TEST\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,11 +129,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\appsettings.json",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\appsettings.json",
               "RelativeDocumentMoniker": "TEST\\appsettings.json",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\appsettings.json",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\appsettings.json",
               "RelativeToolTip": "TEST\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -144,39 +142,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TEST\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TEST\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:42:34.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Program.cs",
               "RelativeDocumentMoniker": "TEST\\Program.cs",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\Program.cs",
-              "RelativeToolTip": "TEST\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Program.cs*",
+              "RelativeToolTip": "TEST\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:40:22.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TEST\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TEST\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:42:34.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleAccessLog.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
+              "RelativeDocumentMoniker": "TEST\\Models\\RoleAccessLog.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\RoleAccessLog.cs",
+              "RelativeToolTip": "TEST\\Models\\RoleAccessLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:32:15.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "TEST\\Models\\ProductModel.cs",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Models\\ProductModel.cs",
+              "RelativeToolTip": "TEST\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:30:55.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAFUCAAAAAAAAAAArwGYCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-05T01:35:55.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TEST\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TEST\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:52:50.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TEST.csproj",
-              "DocumentMoniker": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+              "DocumentMoniker": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
               "RelativeDocumentMoniker": "TEST\\TEST.csproj",
-              "ToolTip": "C:\\Users\\wararat.j\\source\\repos\\TEST\\TEST\\TEST.csproj",
+              "ToolTip": "D:\\Github\\RoleAccessLogs\\TEST\\TEST\\TEST.csproj",
               "RelativeToolTip": "TEST\\TEST.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-31T09:41:57.716Z",
               "EditorCaption": ""

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "CCP.RoleAccessScanner/1.0.7": {
+      "CCP.RoleAccessScanner/1.0.9": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
@@ -85,7 +85,7 @@
     }
   },
   "libraries": {
-    "CCP.RoleAccessScanner/1.0.7": {
+    "CCP.RoleAccessScanner/1.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

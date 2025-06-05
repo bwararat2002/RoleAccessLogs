@@ -1,4 +1,4 @@
-#nullable enable
+﻿#nullable enable
 using CCP.RoleAccessScanner.Extensions;
 using CCP.RoleAccessScanner.Interfaces;
 using CCP.RoleAccessScanner.Internal;
@@ -8,12 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace CCP.RoleAccessScanner.Services;
 
-// ?? ���� TModel �� generic
+// 👇 เพิ่ม TModel เป็น generic
 public class RoleAccessBackgroundService<TDbContext, TModel> : BackgroundService
     where TDbContext : DbContext
     where TModel : class, IRoleAccessRecord, new()
@@ -34,9 +35,9 @@ public class RoleAccessBackgroundService<TDbContext, TModel> : BackgroundService
         using var scope = _provider.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<TDbContext>();
 
-        // ?? ���¡��Ẻ generic ����ͧ�Ѻ TModel
+        // เรียกใช้แบบ generic ที่รองรับ TModel
         Internal.RoleAccessScanner.ScanAndLogRoles<TDbContext, TModel>(
-            db, _env, _config.ProjectId, _config.ProjectName);
+            db, _env, _config.ProjectId, _config.ProjectName, _config.RoleMappings);
 
         return Task.CompletedTask;
     }
