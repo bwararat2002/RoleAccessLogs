@@ -10,7 +10,7 @@
 * สแกน Controller และ Action ทุกตัวในระบบ พร้อม Role/Policy
 * รองรับการใช้ `[Authorize]` ทั้งระดับ Controller และ Method
 * รองรับ `appsettings.json` Role Mapping
-* รองรับ Remark ระบุรายละเอียดหน้านั้น ๆ เพื่อสร้างบน View
+* รองรับ `[RemarkPage]` ระบุรายละเอียดหน้านั้น ๆ เพื่อสร้างบน View
 * อัปเดตอัตโนมัติเมื่อรันโปรเจค
 * รองรับการใช้ Model และ DbSet จากแต่ละโปรเจคโดยไม่ผูกกับ Model ภายในแพคเกจ
 
