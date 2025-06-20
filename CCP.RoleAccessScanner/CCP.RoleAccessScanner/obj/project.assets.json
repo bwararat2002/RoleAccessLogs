@@ -612,13 +612,13 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.6.0",
+    "version": "2.6.1",
     "restore": {
-      "projectUniqueName": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+      "projectUniqueName": "D:\\GitHub\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
       "projectName": "CCP.RoleAccessScanner",
-      "projectPath": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
+      "projectPath": "D:\\GitHub\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
       "packagesPath": "C:\\Users\\wararat.j\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\obj\\",
+      "outputPath": "D:\\GitHub\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -632,10 +632,9 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\MyNuGets": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "\\\\ccpnas\\dep-it\\25.Programmer\\MyNuGets\\CCP.RoleAccessScanner": {},
+        "I:\\25.Programmer\\MyNuGets\\CCP.RoleAccessScanner": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

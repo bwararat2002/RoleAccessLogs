@@ -4,7 +4,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>CCP.RoleAccessScanner</PackageId>
-		<Version>2.6.0</Version>
+		<Version>2.6.1</Version>
 		<Authors>CCP Team</Authors>
 		<Description>Scan and log ASP.NET Core controller/action/role info to centralized database.</Description>
 	</PropertyGroup>

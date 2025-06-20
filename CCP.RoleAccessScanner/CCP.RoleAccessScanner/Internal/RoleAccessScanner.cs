@@ -61,7 +61,6 @@ public static class RoleAccessScanner
 
                 var hasView = ViewExists(controllerName, action.Name, env);
 
-                // เช็คว่ามี method GET ที่ชื่อเดียวกัน
                 var hasGetSameName = controller.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.DeclaredOnly)
                     .Any(m => m.Name == action.Name &&
                               m != action &&
@@ -70,7 +69,6 @@ public static class RoleAccessScanner
                               !m.IsDefined(typeof(HttpPutAttribute)) &&
                               !m.IsDefined(typeof(HttpDeleteAttribute)));
 
-                // [?] ถ้าเป็น POST และมี View และมี GET ชื่อเดียวกัน -> ให้ข้าม
                 if (isPostAction && hasView && hasGetSameName)
                 {
                     continue;
@@ -79,7 +77,7 @@ public static class RoleAccessScanner
                 string type;
                 if (hasView)
                 {
-                    type = "Page"; // มี View ถือเป็น Page เสมอ ไม่ว่าจะเป็น GET หรือ POST
+                    type = "Page";
                 }
                 else if (isPostAction)
                 {
@@ -92,6 +90,10 @@ public static class RoleAccessScanner
 
 
                 foreach (var role in actionRoles)
+                {
+                    if (!existing.Any(e => e.Controller == controllerName &&
+                       e.Action == action.Name &&
+                       e.Role == role))
                     {
                         newAccessList.Add(new TModel
                         {
@@ -105,16 +107,18 @@ public static class RoleAccessScanner
                             Remark = remarkPage ?? string.Empty,
                         });
                     }
+                }
             }
         }
 
         var existing = db.Where(x => x.ProjectId == projectId).ToList();
 
-        var toAdd = newAccessList.Where(n => !existing.Any(e =>
-            e.Controller == n.Controller &&
-            e.Action == n.Action &&
-            e.Role == n.Role)).ToList();
-
+        var toAdd = newAccessList.Where(n => !existing.Any(e => e.Controller == n.Controller
+         && e.Action == n.Action
+         && e.Role == n.Role
+         && e.Type == n.Type
+         && e.Remark == n.Remark)).ToList();
+         
         var toUpdate = existing.Where(e =>
             newAccessList.Any(n =>
                 n.Controller == e.Controller &&
