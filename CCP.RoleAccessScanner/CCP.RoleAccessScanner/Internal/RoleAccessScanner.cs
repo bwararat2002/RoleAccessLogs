@@ -49,10 +49,6 @@ public static class RoleAccessScanner
                 var baseRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
                 var actionRoles = ExpandRoles(baseRoles, roleMap);
 
-
-                var remarkPageAttr = action.GetCustomAttribute<RemarkPageAttribute>();
-                var remarkPage = remarkPageAttr?.Title;
-
                 var isPostAction = action.IsDefined(typeof(HttpPostAttribute), false)
                     || action.IsDefined(typeof(HttpPutAttribute), false)
                     || action.IsDefined(typeof(HttpDeleteAttribute), false)
@@ -91,40 +87,39 @@ public static class RoleAccessScanner
 
                 foreach (var role in actionRoles)
                 {
-                    if (!existing.Any(e => e.Controller == controllerName &&
-                       e.Action == action.Name &&
-                       e.Role == role))
+                    var exist = existing.FirstOrDefault(e =>
+                        e.Controller == controllerName &&
+                        e.Action == action.Name &&
+                        e.Role == role);
+
+
+                    newAccessList.Add(new TModel
                     {
-                        newAccessList.Add(new TModel
-                        {
-                            ProjectId = projectId,
-                            ProjectName = projectName,
-                            Controller = controllerName,
-                            Action = action.Name,
-                            Role = role,
-                            Type = type,
-                            LoggedAt = DateTime.Now,
-                            Remark = remarkPage ?? string.Empty,
-                        });
-                    }
+                        ProjectId = projectId,
+                        ProjectName = projectName,
+                        Controller = controllerName,
+                        Action = action.Name,
+                        Role = role,
+                        Type = type,
+                        LoggedAt = DateTime.Now
+                    });
+
                 }
             }
         }
 
         var existing = db.Where(x => x.ProjectId == projectId).ToList();
-
         var toAdd = newAccessList.Where(n => !existing.Any(e => e.Controller == n.Controller
          && e.Action == n.Action
          && e.Role == n.Role
-         && e.Type == n.Type
-         && e.Remark == n.Remark)).ToList();
-         
+         && e.Type == n.Type)).ToList();
+
         var toUpdate = existing.Where(e =>
             newAccessList.Any(n =>
                 n.Controller == e.Controller &&
                 n.Action == e.Action &&
                 n.Role == e.Role &&
-                (n.Type != e.Type || n.Remark != e.Remark))).ToList();
+                n.Type != e.Type)).ToList();
 
         var toRemove = existing.Where(e =>
             !newAccessList.Any(n =>
@@ -140,11 +135,14 @@ public static class RoleAccessScanner
                 n.Controller == item.Controller &&
                 n.Action == item.Action &&
                 n.Role == item.Role);
-            item.Type = match.Type;
-            if (!string.IsNullOrEmpty(match.Remark))
-                item.Remark = match.Remark;
+
+            if (item.Type != match.Type)
+            {
+                item.Type = match.Type;
+            }
             item.LoggedAt = DateTime.Now;
         }
+
 
         context.SaveChanges();
     }

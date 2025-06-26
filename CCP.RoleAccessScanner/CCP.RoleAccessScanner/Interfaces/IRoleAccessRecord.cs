@@ -14,7 +14,6 @@ namespace CCP.RoleAccessScanner.Interfaces
         string Action { get; set; }
         string Role { get; set; }
         string Type { get; set; }
-        string? Remark { get; set; }
         DateTime LoggedAt { get; set; }
     }
 }

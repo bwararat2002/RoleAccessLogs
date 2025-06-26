@@ -12,6 +12,5 @@ public class RoleAccessLog : IRoleAccessRecord
     public string Controller { get; set; }
     public string Action { get; set; }
     public string Type { get; set; }
-    public string Remark { get; set; }
     public DateTime LoggedAt { get; set; }
 }
