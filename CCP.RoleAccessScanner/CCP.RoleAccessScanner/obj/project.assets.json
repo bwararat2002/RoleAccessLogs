@@ -612,7 +612,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.6.5",
+    "version": "2.6.9",
     "restore": {
       "projectUniqueName": "D:\\GitHub\\RoleAccessLogs\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner\\CCP.RoleAccessScanner.csproj",
       "projectName": "CCP.RoleAccessScanner",

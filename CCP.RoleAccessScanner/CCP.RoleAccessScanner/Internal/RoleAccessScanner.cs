@@ -5,7 +5,6 @@ using CCP.RoleAccessScanner.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -20,15 +19,26 @@ namespace CCP.RoleAccessScanner.Internal;
 
 public static class RoleAccessScanner
 {
-    public static void ScanAndLogRoles<TDbContext, TModel>(TDbContext context, IWebHostEnvironment env, string projectId, string projectName, Dictionary<string, List<string>>? roleMap)
+    public static void ScanAndLogRoles<TDbContext, TModel>(
+        TDbContext context,
+        IWebHostEnvironment env,
+        string projectId,
+        string projectName,
+        Dictionary<string, List<string>>? roleMap)
         where TDbContext : DbContext
         where TModel : class, IRoleAccessRecord, new()
     {
         var db = context.Set<TModel>();
         var newAccessList = new List<TModel>();
 
-        var controllers = Assembly.GetEntryAssembly().GetTypes()
+        // โหลดข้อมูลที่มีอยู่
+        var existing = db.Where(x => x.ProjectId == projectId).ToList();
+
+        // ดึง Controller ทั้งหมด
+        var controllers = Assembly.GetEntryAssembly()?.GetTypes()
             .Where(t => typeof(Controller).IsAssignableFrom(t) && !t.IsAbstract);
+
+        if (controllers == null) return;
 
         foreach (var controller in controllers)
         {
@@ -45,7 +55,6 @@ public static class RoleAccessScanner
             foreach (var action in actions)
             {
                 var actionAuthorize = action.GetCustomAttribute<AuthorizeAttribute>();
-                var rawRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
                 var baseRoles = GetRolesFromAuthorize(actionAuthorize) ?? controllerRoles ?? new[] { "*" };
                 var actionRoles = ExpandRoles(baseRoles, roleMap);
 
@@ -66,33 +75,12 @@ public static class RoleAccessScanner
                               !m.IsDefined(typeof(HttpDeleteAttribute)));
 
                 if (isPostAction && hasView && hasGetSameName)
-                {
                     continue;
-                }
 
-                string type;
-                if (hasView)
-                {
-                    type = "Page";
-                }
-                else if (isPostAction)
-                {
-                    type = "Button";
-                }
-                else
-                {
-                    type = "Event";
-                }
-
+                string type = hasView ? "Page" : (isPostAction ? "Button" : "Event");
 
                 foreach (var role in actionRoles)
                 {
-                    var exist = existing.FirstOrDefault(e =>
-                        e.Controller == controllerName &&
-                        e.Action == action.Name &&
-                        e.Role == role);
-
-
                     newAccessList.Add(new TModel
                     {
                         ProjectId = projectId,
@@ -103,51 +91,48 @@ public static class RoleAccessScanner
                         Type = type,
                         LoggedAt = DateTime.Now
                     });
-
                 }
             }
         }
 
-        var existing = db.Where(x => x.ProjectId == projectId).ToList();
-        var toAdd = newAccessList.Where(n => !existing.Any(e => e.Controller == n.Controller
-         && e.Action == n.Action
-         && e.Role == n.Role
-         && e.Type == n.Type)).ToList();
-
-        var toUpdate = existing.Where(e =>
+        // หา record ที่ควรแทนที่ (type เปลี่ยน)
+        var toReplace = existing.Where(e =>
             newAccessList.Any(n =>
                 n.Controller == e.Controller &&
                 n.Action == e.Action &&
                 n.Role == e.Role &&
                 n.Type != e.Type)).ToList();
 
+        // หา record ที่ยังไม่เคยมี
+        var toAdd = newAccessList.Where(n =>
+            !existing.Any(e =>
+                e.Controller == n.Controller &&
+                e.Action == n.Action &&
+                e.Role == n.Role)).ToList();
+
+        // หา record ที่หายไปจากระบบ
         var toRemove = existing.Where(e =>
             !newAccessList.Any(n =>
                 n.Controller == e.Controller &&
                 n.Action == e.Action &&
                 n.Role == e.Role)).ToList();
 
+        // รวมสิ่งที่ควร insert ใหม่
+        var finalToAdd = toAdd.Concat(
+            newAccessList.Where(n =>
+                toReplace.Any(r =>
+                    r.Controller == n.Controller &&
+                    r.Action == n.Action &&
+                    r.Role == n.Role))).ToList();
+
         if (toRemove.Any()) db.RemoveRange(toRemove);
-        if (toAdd.Any()) db.AddRange(toAdd);
-        foreach (var item in toUpdate)
-        {
-            var match = newAccessList.First(n =>
-                n.Controller == item.Controller &&
-                n.Action == item.Action &&
-                n.Role == item.Role);
-
-            if (item.Type != match.Type)
-            {
-                item.Type = match.Type;
-            }
-            item.LoggedAt = DateTime.Now;
-        }
-
+        if (toReplace.Any()) db.RemoveRange(toReplace);
+        if (finalToAdd.Any()) db.AddRange(finalToAdd);
 
         context.SaveChanges();
     }
 
-    private static string[] GetRolesFromAuthorize(AuthorizeAttribute? attr)
+    private static string[]? GetRolesFromAuthorize(AuthorizeAttribute? attr)
     {
         if (attr == null) return null;
         if (!string.IsNullOrEmpty(attr.Roles)) return attr.Roles.Split(',').Select(r => r.Trim()).ToArray();
@@ -171,5 +156,4 @@ public static class RoleAccessScanner
             .Distinct()
             .ToArray();
     }
-
 }
