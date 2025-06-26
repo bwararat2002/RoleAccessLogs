@@ -141,7 +141,8 @@ public static class RoleAccessScanner
                 n.Action == item.Action &&
                 n.Role == item.Role);
             item.Type = match.Type;
-            item.Remark = match.Remark;
+            if (!string.IsNullOrEmpty(match.Remark))
+                item.Remark = match.Remark;
             item.LoggedAt = DateTime.Now;
         }
 
